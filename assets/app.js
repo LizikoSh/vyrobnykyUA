@@ -1,5 +1,5 @@
-const SHEET_CSV="https://docs.google.com/spreadsheets/d/1yUWBZeVuOBF9G6oZkdEMg_eHbQO4KVmZ_mnIHxspPD4/gviz/tq?tqx=out:csv";
-const CACHE_KEY="ukrainianManufacturersSnapshot_v1",PAGE_SIZE=24;
+const SHEET_CSV="https://docs.google.com/spreadsheets/d/1oR3MdPsyMUQd4ISP2sgvEvHB_m9tNgFdzfV0zKMicnk/gviz/tq?tqx=out:csv";
+const CACHE_KEY="ukrainianManufacturersSnapshot_v2",PAGE_SIZE=24;
 let all=[],filtered=[],shown=PAGE_SIZE;
 const $=s=>document.querySelector(s);
 const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#039;"}[c]));
