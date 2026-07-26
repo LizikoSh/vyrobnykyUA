@@ -26,7 +26,6 @@
       <input id="hero-query" type="search" placeholder="Наприклад: кава, кераміка, дитячий одяг…" aria-label="Пошук виробників">
       <button class="button" type="submit">Шукати</button>
     </form>
-    <p id="data-status" class="data-status">Завантаження локальної копії каталогу…</p>
   </div>
 </section>
 
@@ -34,6 +33,11 @@
   <article><strong id="stat-brands">—</strong><span>Виробників</span></article>
   <article><strong id="stat-categories">—</strong><span>Категорій</span></article>
   <article><strong id="stat-regions">—</strong><span>Регіонів</span></article>
+</section>
+
+<section class="container suggest-manufacturer">
+  <p>Не знайшли тут свого улюбленого українського виробника?</p>
+  <a class="green-button" href="#" aria-label="Напишіть нашому боту">Напишіть нашому боту.</a>
 </section>
 
 <section id="catalog" class="container catalog">
@@ -62,7 +66,18 @@
 </div></section>
 </main>
 
-<footer><div class="container footer-inner"><span>© <span id="year"></span> Вироблено в Україні</span><span>Каталог сформовано на основі відкритої бази. Дані можуть містити неточності.</span></div></footer>
+<footer>
+  <div class="container footer-inner">
+    <span>© <span id="year"></span> Вироблено в Україні</span>
+    <div class="footer-note">
+      <p>Каталог сформовано на основі відкритої бази. Дані можуть містити неточності.</p>
+      <p class="footer-feedback">
+        Знайшли неточність?
+        <a class="green-button footer-button" href="#" aria-label="Повідомте нам про неточність">Повідомте нам</a>
+      </p>
+    </div>
+  </div>
+</footer>
 
 <dialog id="modal"><button id="modal-close" class="modal-close">×</button><div id="modal-content"></div></dialog>
 <script src="assets/app.js"></script>
