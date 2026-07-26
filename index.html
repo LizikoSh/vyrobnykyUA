@@ -1,4 +1,53 @@
-<div id="empty" class="empty" hidden><h3>Нічого не знайдено</h3><p>Змініть запит або скиньте фільтри.</p></div>
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Вироблено в Україні — каталог українських виробників</title>
+  <meta name="description" content="Каталог українських виробників із пошуком та фільтрами.">
+  <meta name="theme-color" content="#1677d2">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="site-header"><div class="container header-inner">
+  <a class="brand" href="#top"><span class="brand-mark">✦</span>Вироблено в Україні</a>
+  <nav><a href="#why">Чому українське</a><a class="button small" href="#catalog">До каталогу</a></nav>
+</div></header>
+
+<main id="top">
+<section class="hero">
+  <div class="blob blue"></div><div class="blob yellow"></div>
+  <div class="container hero-content">
+    <div class="eyebrow">Відкрита база українських брендів</div>
+    <h1>Українські виробники, яких варто <span>знати</span> та <mark>підтримувати</mark></h1>
+    <p>Каталог українських брендів: одяг, їжа, косметика, прикраси, інтер’єр, технології та багато іншого.</p>
+    <form id="hero-search" class="hero-search">
+      <input id="hero-query" type="search" placeholder="Наприклад: кава, кераміка, дитячий одяг…" aria-label="Пошук виробників">
+      <button class="button" type="submit">Шукати</button>
+    </form>
+    <p id="data-status" class="data-status">Завантаження локальної копії каталогу…</p>
+  </div>
+</section>
+
+<section class="container stats">
+  <article><strong id="stat-brands">—</strong><span>Виробників</span></article>
+  <article><strong id="stat-categories">—</strong><span>Категорій</span></article>
+  <article><strong id="stat-regions">—</strong><span>Регіонів</span></article>
+</section>
+
+<section id="catalog" class="container catalog">
+  <h2>Каталог виробників</h2>
+  <div class="filters">
+    <label class="search-field"><span>⌕</span><input id="query" type="search" placeholder="Пошук за назвою або продукцією…"></label>
+    <select id="category"><option value="">Усі категорії</option></select>
+    <select id="region"><option value="">Усі регіони</option></select>
+    <select id="sort"><option value="asc">За абеткою А–Я</option><option value="desc">За абеткою Я–А</option></select>
+    <button id="reset" class="button secondary" type="button">Скинути</button>
+  </div>
+  <p class="result-count">Знайдено: <strong id="found">0</strong></p>
+  <div id="cards" class="cards"></div>
+  <div id="empty" class="empty" hidden><h3>Нічого не знайдено</h3><p>Змініть запит або скиньте фільтри.</p></div>
   <div class="load-more-wrap"><button id="load-more" class="button" type="button" hidden>Показати ще</button></div>
   <div class="catalog-cta">
     <span>Не знайшли тут свого улюбленого українського виробника?</span>
