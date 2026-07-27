@@ -22,7 +22,7 @@ body {
   margin: 0;
   font-family: Inter, system-ui, -apple-system, "Segoe UI", sans-serif;
   color: var(--ink);
-  background: linear-gradient(90deg, #dff1ff 0%, #f3f9ff 24%, #fff 48%, #fffdf1 72%, #fff1a8 100%);
+  background: linear-gradient(90deg, #a9cfe8 0%, #c2d7e8 24%, #d6dde5 48%, #e2d285 72%, #cda62b 100%);
   background-attachment: fixed;
   line-height: 1.55;
 }
