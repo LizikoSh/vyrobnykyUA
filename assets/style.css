@@ -112,7 +112,7 @@ body {
 .hero {
   position: relative;
   overflow: hidden;
-  padding: 80px 0 58px;
+  padding: 48px 0 34px;
   text-align: center;
 }
 
@@ -156,7 +156,7 @@ body {
 
 h1 {
   max-width: 860px;
-  margin: 22px auto 18px;
+  margin: 18px auto 14px;
   font-size: clamp(38px, 6vw, 68px);
   line-height: 1.08;
   letter-spacing: -.045em;
@@ -181,29 +181,8 @@ h1 mark {
   font-size: 18px;
 }
 
-.hero-search {
-  max-width: 720px;
-  margin: 32px auto 0;
-  display: flex;
-  gap: 10px;
-  padding: 9px;
-  border: 1px solid var(--line);
-  border-radius: 18px;
-  background: #fff;
-  box-shadow: var(--shadow);
-}
-
-.hero-search input {
-  min-width: 0;
-  flex: 1;
-  border: 0;
-  outline: 0;
-  padding: 8px 10px;
-  font: inherit;
-}
-
 .data-status {
-  margin-top: 15px !important;
+  margin-top: 12px !important;
   font-size: 13px !important;
 }
 
@@ -211,7 +190,7 @@ h1 mark {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 18px;
-  padding-bottom: 58px;
+  padding-bottom: 42px;
 }
 
 .stats article {
@@ -380,7 +359,7 @@ h2 {
 }
 
 .catalog-cta {
-  margin: 0 0 24px;
+  margin: 16px 0 0;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -543,11 +522,7 @@ dialog::backdrop {
   }
 
   .hero {
-    padding-top: 55px;
-  }
-
-  .hero-search {
-    flex-direction: column;
+    padding: 38px 0 28px;
   }
 
   .stats {
