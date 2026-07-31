@@ -22,10 +22,6 @@
     <div class="eyebrow">Відкрита база українських брендів</div>
     <h1>Українські виробники, яких варто <span>знати</span> та <mark>підтримувати</mark></h1>
     <p>Каталог українських брендів: одяг, їжа, косметика, прикраси, інтер’єр, технології та багато іншого.</p>
-    <form id="hero-search" class="hero-search">
-      <input id="hero-query" type="search" placeholder="Наприклад: кава, кераміка, дитячий одяг…" aria-label="Пошук виробників">
-      <button class="button" type="submit">Шукати</button>
-    </form>
     <p id="data-status" class="data-status">Завантаження локальної копії каталогу…</p>
   </div>
 </section>
@@ -37,10 +33,6 @@
 </section>
 
 <section id="catalog" class="container catalog">
-  <div class="catalog-cta">
-    <span>Не знайшли тут свого улюбленого українського виробника?</span>
-    <a class="telegram-button" href="https://t.me/vyrobnykyUA_bot" target="_blank" rel="noopener">Напишіть нашому боту</a>
-  </div>
   <h2>Каталог виробників</h2>
   <div class="filters">
     <label class="search-field"><span>⌕</span><input id="query" type="search" placeholder="Пошук за назвою або продукцією…"></label>
@@ -48,6 +40,10 @@
     <select id="region"><option value="">Усі регіони</option></select>
     <select id="sort"><option value="asc">За абеткою А–Я</option><option value="desc">За абеткою Я–А</option></select>
     <button id="reset" class="button secondary" type="button">Скинути</button>
+  </div>
+  <div class="catalog-cta">
+    <span>Не знайшли тут свого улюбленого українського виробника?</span>
+    <a class="telegram-button" href="https://t.me/vyrobnykyUA_bot" target="_blank" rel="noopener">Напишіть нашому боту</a>
   </div>
   <p class="result-count">Знайдено: <strong id="found">0</strong></p>
   <div id="cards" class="cards"></div>
