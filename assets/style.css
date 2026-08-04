@@ -567,4 +567,30 @@ dialog::backdrop {
   .footer-inner {
     flex-direction: column;
   }
+
+  /* Стилі для плашки підтримки */
+.ranok-support-banner {
+    border: 2px solid #dc2626; /* Червона рамка */
+    background-color: #fef2f2; /* Світло-рожевий/червоний фон для акценту */
+    padding: 12px 20px;
+    margin: 15px auto;
+    max-width: 1200px; /* Адаптуйте під ширину контейнера вашого сайту */
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.ranok-support-banner a {
+    color: #b91c1c; /* Темно-червоний колір тексту */
+    font-weight: 600;
+    font-size: 1rem;
+    text-decoration: underline;
+    transition: color 0.2s ease-in-out;
+}
+
+.ranok-support-banner a:hover {
+    color: #7f1d1d; /* Колір при наведенні */
+    text-decoration: none;
+}
+  
 }
